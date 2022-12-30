@@ -33,3 +33,32 @@
     background-color: antiquewhite;
     color: blue;
 }
+.container{
+    font-size: 2rem;
+    width: 250px;
+    margin-left: 40px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: clip; 
+   
+}
+div.container:hover{
+    overflow:visible;
+}
+
+.container2{
+    font-size: 2rem;
+    width: 100px;
+    margin-left: 40px;
+    border: 1px solid black;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 50;
+}
+.textshadow{
+    text-shadow: -6px -7px 4px red;
+    font-size: 41px;
+}
+.container4{
+    background-color: cornflowerblue;
+}
