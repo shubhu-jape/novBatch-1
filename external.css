@@ -57,8 +57,30 @@ div.container:hover{
 }
 .textshadow{
     text-shadow: -6px -7px 4px red;
-    font-size: 41px;
+    font-size: 41px !important;
+   /* background-color: cornflowerblue; */
 }
+
 .container4{
     background-color: cornflowerblue;
+    font-size: 30px;
 }
+.imgopacity{
+    position: absolute;
+    opacity: 1;
+    z-index: -1
+}
+div.imgopacity img:hover {
+    opacity: 0.5;
+}
+.parent{
+    background-image: url('happyNewYear.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    z-index: -1 !important;
+    position: relative;
+}
+/* div.main{
+z-index: -1 !important;
+} */
