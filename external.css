@@ -30,7 +30,7 @@
     border: 2px solid black;
 }
 .main4{
-    background-color: antiquewhite;
+    background-color: rgb(235, 25, 43);
     color: blue;
 }
 .container{
@@ -60,7 +60,10 @@ div.container:hover{
     font-size: 41px !important;
    /* background-color: cornflowerblue; */
 }
-
+.textshadow1{
+    font-size: 30px;
+    background-color: cornflowerblue
+}
 .container4{
     background-color: cornflowerblue;
     font-size: 30px;
@@ -68,7 +71,7 @@ div.container:hover{
 .imgopacity{
     position: absolute;
     opacity: 1;
-    z-index: -1
+   
 }
 div.imgopacity img:hover {
     opacity: 0.5;

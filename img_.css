@@ -1,0 +1,11 @@
+.backgroundimage{
+    background-image: url(happyNewYear.jpg);
+    color: yellow;
+    height: 1000px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    /* left: 30px; */
+}
+.content{
+    margin-left:390px;
+}

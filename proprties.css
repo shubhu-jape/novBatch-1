@@ -1,4 +1,11 @@
-/* we are learning css */
-/* i am poonam */
-
-/* rollback commit */
+.main{
+    position: absolute;
+    top: 40px; 
+    color: red;
+    z-index: -1;
+    left: 40px;
+}
+.maintop{
+    position: absolute;
+    top: 40px; 
+}
