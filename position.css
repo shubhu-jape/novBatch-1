@@ -29,6 +29,13 @@ top: 0px;
 background-color: chartreuse;
 border:  1px solid yellow;
 }
+.stick1{
+    position: sticky ;
+    top: 20px;
+    background-color: rgb(255, 106, 0);
+    border:  1px solid yellow;
+    }   
+
 
 .main{
 position: relative;
