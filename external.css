@@ -73,7 +73,7 @@ div.container:hover{
     opacity: 1;
    
 }
-div.imgopacity img:hover {
+.imgopacity.imgopasity2 img:hover {
     opacity: 0.5;
 }
 .parent{
@@ -81,9 +81,12 @@ div.imgopacity img:hover {
     background-repeat: no-repeat;
     height: 1000px;
     width: 1000px;
-    z-index: -1 !important;
+    /* z-index: 1 !important; add this only to hide content behind img or element */
     position: relative;
 }
 /* div.main{
 z-index: -1 !important;
 } */
+.imgopasity2{
+font-size: 20px;
+}
