@@ -1,10 +1,14 @@
 .parent-container{
     min-height: 100%;
     background-color: rgb(246, 227, 202);
+
 }
 .dropdown {
     background-color: #f3b8b8;
     overflow: hidden;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
 }
 
 .dropdown a{
@@ -32,6 +36,8 @@
     background-color: aquamarine;
     /* display: block; */
     display: none;
+    z-index: 1;
+   
 }
 
 .dropdown-content a{
@@ -43,6 +49,7 @@
 
 .dropdown-container:hover .dropdown-content{
     display: block;
+    z-index: 1;
 }
 .dropbtn:hover{
     /* background-color: #71ef80; */
@@ -51,5 +58,44 @@
 .dropdown-content a:hover{
    background-color: orange;
 }
+.link-3-container{
+    overflow: hidden;
+    /* float: left; */
+}
+.dropdown-link3-content{
+    position: absolute;
+    min-width: 140px;
+    /* min-height: 140px; */
+    background-color: aquamarine;
+    /* display: block; */
+    display: none;
+    top: 100px;
+    left: 142px;
+}
 
-
+.link-3-container:hover .dropdown-link3-content{
+    display: block;
+}
+.sidebar{
+    position: fixed;
+    width: 120px;
+    background-color: aquamarine;
+    min-height: 559px; 
+    top: 2px;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    background-color: burlywood;
+    min-width: 99%;
+}
+.middle-container{
+    position: absolute;
+    left: 135px;
+    padding: 6px;
+    height: 100%;
+}
+.header{
+    height: 30px;
+}
