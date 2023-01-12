@@ -1,15 +1,16 @@
 .parent-container{
     min-height: 100%;
     background-color: rgb(246, 227, 202);
+    position: relative;
+    overflow: hidden;
 
 }
 .dropdown {
     background-color: #f3b8b8;
     overflow: hidden;
-    z-index: 1;
-    position: sticky;
-    top: 0px;
-}
+    /* position: sticky;
+    top: 0px; */
+} 
 
 .dropdown a{
     text-decoration: none;
@@ -81,7 +82,9 @@
     width: 120px;
     background-color: aquamarine;
     min-height: 559px; 
-    top: 2px;
+    top: 59px;
+    overflow-y: scroll;
+    height: 95%;
 }
 .footer{
     position: fixed;
@@ -94,8 +97,20 @@
     position: absolute;
     left: 135px;
     padding: 6px;
+    min-height: 50%;
     height: 100%;
+    overflow-y: scroll;
 }
-.header{
-    height: 30px;
+
+.mid-container-words {
+    position: absolute;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    display: block;
+    top: 180px;
+    left: 273px;
+    overflow: hidden; 
+    
+
 }
