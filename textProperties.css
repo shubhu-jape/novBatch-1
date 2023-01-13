@@ -1,0 +1,29 @@
+.word-properties{
+    width: 200px;
+    border: 2px solid black;
+    word-break: break-all;  /*it will break at any character */
+}
+.word-properties1{
+    width: 200px;
+    border: 2px solid black;
+    word-break: break-word;
+}
+.word-properties2{
+    width: 200px;
+    border: 2px solid black;
+    word-break: keep-all;  /*//it will break at -(hypen) word */
+}
+.word-properties3{
+    width: 200px;
+    border: 2px solid black;
+    word-wrap: break-word;  /*//it will break at long word */
+}
+.multicolumn-property{
+ column-count: 3;
+ column-gap: 30px;  
+ column-rule-style: solid;
+ /* column-rule: 4px double #ff00ff; */
+ column-rule-color: aqua;
+ column-rule-width: 3px;
+ 
+}
