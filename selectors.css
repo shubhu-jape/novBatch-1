@@ -1,0 +1,20 @@
+p {
+color: aqua;
+}
+
+#h1-container{     /* #idSelectorName */
+    color: blue;
+}
+
+.center{
+    color: brown;
+}
+
+* {
+    text-align: center;
+    color: rgb(212, 255, 0);
+  }
+  h5, h6 {
+    text-align: center;
+    color: red;
+  }
