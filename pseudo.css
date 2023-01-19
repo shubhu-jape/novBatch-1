@@ -13,11 +13,11 @@ p:hover h1{
     display: block;
 } */
 
-p {
+/* p {
   display: none;
   background-color: yellow;
   padding: 20px;
-}
+} */
 
 div:hover p {
   display: block;
@@ -35,7 +35,7 @@ div:hover p {
 /* input:focus{
     background-color: coral;
   } */
-
+  
 input[type=text]:focus {
   background-color: antiquewhite;
 }
@@ -65,4 +65,41 @@ input:checked {
 
 input[type=number]:disabled {
   background-color: chartreuse;
+}
+/* CSS Attribute Selectors */
+
+a[target]{
+  background-color: yellow;
+}
+a[target=_blank]{
+  background-color: rgb(255, 0, 170);
+}
+
+[title~=flw] {
+  border: 5px solid yellow;
+}
+[class|=test] {
+  background: rgb(0, 255, 234);
+}
+
+[class^="start"] {
+  background: yellow;
+}
+[class$="test1"] {
+  background: rgb(255, 0, 47);
+}
+.first-letter{
+  font-size: 30px;
+  color: aqua;
+}
+h5::first-letter{
+  font-size: 30px;
+  color: aqua;
+}
+h6::first-line{
+  font-size: 20px;
+  color: brown;
+}
+p.content-main::before { 
+  content: " -------pppppppppppp ";
 }
