@@ -1,0 +1,33 @@
+.parent-container {
+    text-align: center;
+    margin: auto;
+    border: 1px solid greenyellow;
+    height: 400px;
+    width: 400px;
+}
+
+.form-container {
+    background-color: antiquewhite;
+}
+.h1-container{
+    color: rgb(38, 0, 255);
+}
+.p-container2{
+   background-color:#eddc64;
+}
+.p-container{
+    color: blueviolet;
+}
+.parent-container .form-container h1.h1-container p.p-container.p-container2{
+    font-size: 40px;
+}
+/* .h1-container p.p-container{
+    font-size: 20px;
+} */
+#example1{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 44px #45cb2d;
+    width: 200px;
+
+}
