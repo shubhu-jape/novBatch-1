@@ -1,6 +1,7 @@
 //  syntax: let/var/const variable_name : value;
 //reserved_keywords variable_name : data type
  let b; //declaration
+ console.log(b);
  b = 30;  //defination
 
 let a = 20; //d+d
@@ -11,9 +12,9 @@ console.log(favFruit);
 
 // let x = 40;
 
-// x = 40; ----- // hoisting of variable  is not possible with let keyword.
+// x = 40;// ----- // hoisting of variable  is not possible with let keyword.
 // let x;
-// console.log(x); ----not possible
+ //console.log(x);// ----not possible
 var t; //declaration
 t = 50; //defination
 var favCar = 'miniCup'; //D+D //redeclaration of variable is possible with var keyword 
@@ -32,3 +33,42 @@ console.log(myName);
 // const g = 50;
 //g = 50; //hoisting of variable is not possible with const keyword
 //const g;
+
+//function:
+//function syntax: function(res keyword) functionName(){}
+
+function myFirstFunction(){
+  //code block
+    console.log('i am inside function');
+}
+
+myFirstFunction();
+console.log(myFirstFunction());
+
+function scope(){
+    var myFavMovie = '3idiots';
+    console.log(myFavMovie);
+    if(true){
+        console.log(myFavMovie);
+    }
+
+}
+// console.log(myFavMovie);
+// program to print the text
+// variable a cannot be used here
+function greet() {
+    let a = 'hello';
+
+    // variable b cannot be used here
+    if(true){
+        // variable b can be used here
+        let b = 'world';
+        console.log( b);
+    }
+
+     // variable b cannot be used here
+    console.log(b) ; // error
+}
+// variable a cannot be used here
+
+greet();
