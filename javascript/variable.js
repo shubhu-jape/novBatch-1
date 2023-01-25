@@ -2,10 +2,11 @@
 //reserved_keywords variable_name : data type
  let b; //declaration
  console.log(b);
- b = 30;  //defination
-
+  b = 30;
+  b = 50;  //defination
+  console.log(b);
 let a = 20; //d+d
-//let a ='poonam'  //redeclaration with let keyword is not possible
+//let a = 'poonam'  //redeclaration with let keyword is not possible
 let favFruit = 'mango' ;
 
 console.log(favFruit);
@@ -16,7 +17,8 @@ console.log(favFruit);
 // let x;
  //console.log(x);// ----not possible
 var t; //declaration
-t = 50; //defination
+t = 50;
+t = 60; //defination
 var favCar = 'miniCup'; //D+D //redeclaration of variable is possible with var keyword 
 console.log(favCar);
 var favCar = 'swift';
@@ -27,7 +29,7 @@ var mobNo ;  //declare  //  hoisting  possible with var keyword.
 console.log(mobNo);
 
 const myName = 'poonam'; //value reassign with const keywors is not possible
-//myName = 5000;
+myName = 5000;
 console.log(myName);
 //const myName = 'patil' //redeclaration of variable is not possible with const keyword
 // const g = 50;
@@ -53,22 +55,24 @@ function scope(){
     }
 
 }
-// console.log(myFavMovie);
-// program to print the text
-// variable a cannot be used here
-function greet() {
+
+function diffLetVar() {
     let a = 'hello';
-
-    // variable b cannot be used here
     if(true){
-        // variable b can be used here
-        let b = 'world';
-        console.log( b);
+      var b = 'world';
+        console.log('inside block b -->', b);
+        console.log('favFruit-->',favFruit);
+        console.log('a',a);
+        b = 'world2222';
+        console.log('outer block b value',b) ; 
     }
+    console.log('outside block b -->', b);
+    console.log('favFruit-->',favFruit);
+    console.log('a',a);
 
-     // variable b cannot be used here
-    console.log(b) ; // error
 }
-// variable a cannot be used here
+//var keyword varible's scope is : function level scope
+//let keyword varible's scope is : block level scope
+// console.log('outside fun',b); //uncought re error
 
-greet();
+diffLetVar();
