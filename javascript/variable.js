@@ -66,6 +66,7 @@ function diffLetVar() {
         b = 'world2222';
         console.log('outer block b value',b) ; 
     }
+    let testb = b;
     console.log('outside block b -->', b);
     console.log('favFruit-->',favFruit);
     console.log('a',a);
