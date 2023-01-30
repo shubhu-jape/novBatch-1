@@ -2,7 +2,7 @@
 //let msg = 'msg for mySurName variable-###-->'
 let mySurName = 'Patil';
 let myFirstName = 'Poonam'
-console.log('mySurName-->', mySurName );
+console.log('mySurName-->'+ mySurName );
 console.log('myFirstName-->', myFirstName );
 var  num1 = 20;
 console.log('num1', num1);
