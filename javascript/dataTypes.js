@@ -4,10 +4,13 @@ let myName = 'poonam';
 let myNameList = ['poonam','Raj','Shiv', 'Priya', 'Preet' , 500 , 20, 30, test()] ;
 
 function test(){
-    
+
+var result = 'poonam';
+    return result;
 }
 console.log('myNameList', myNameList); //array
 console.log(myNameList[1]); //Raj
+console.log(myNameList[8]);
 console.log(myNameList[10]);  //undefined
 console.log(myNameList.length); // 9
 
@@ -68,3 +71,16 @@ var obj = {
     "status": "succsess"
   }
   console.log(obj.posts[0].author)
+
+  //data types in js
+// string
+// number
+// boolean
+// object
+// null
+// undefined
+  var car = '-null i am poonam'; //'true' , -9.0 ,90,-0
+    console.log(typeof(car));
+    console.log(typeof(20+40+'poonam'+20));
+
+    
