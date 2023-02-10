@@ -1,0 +1,70 @@
+.main{ 
+    color: black;
+    size: 1px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+.main1{
+    border: 2px dotted blueviolet;
+    padding-left: 20px;
+}
+.main2{
+    background-color: azure;
+    border: 2px solid black;
+    height: 10px;
+    width: 200px;
+}
+.main3{
+    background-color: antiquewhite;
+    border: 2px solid black;
+} 
+.main4{
+    background-color: blue;
+    color: bisque;
+}
+
+.container{
+    font-size: 2rem;
+    width: 150px;
+    border: 1px solid red;
+    margin-left: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.div.container.hover{
+    overflow: visible;
+}
+.container2{
+    font-size: 2rem;
+    width: 100;
+    margin-left: 40px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 50;
+}
+
+.textshadow{
+    text-shadow: 2px;
+    font-size: 4rem;
+}
+
+.container4{
+    background-color: brown;
+    font-size: 30px;
+}
+.imgopcity{
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+}
+div.imgopcity img:hover{
+    opacity: 0.5px;
+}
+.parent{
+    background-image: url(C:\Users\Dell\3D Objects\Development\nov_batch\NovBtach\novBatch\dog.jfif);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+}
+
